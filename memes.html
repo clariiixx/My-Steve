@@ -1,0 +1,49 @@
+<html>
+<head>
+    <link rel="stylesheet" href="buscemistyles.css">
+
+</head>
+<body>
+  <div class="topnav">
+<a class="active" href="file://///buffalo.cs.fiu.edu/homes/Desktop/buscemi.html">Home</a>
+<a href="file://///buffalo.cs.fiu.edu/homes/Desktop/merch.html">Merch</a>
+<a href="file://///buffalo.cs.fiu.edu/homes/Desktop/movies.html">Movies</a>
+<a href="file://///buffalo.cs.fiu.edu/homes/Desktop/memes.html">Memes</a>
+<a href="#games">Games</a>
+<a href="file://///buffalo.cs.fiu.edu/homes/Desktop/gallery.html">Gallery</a>
+</div>
+  <!-- The grid: four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="https://i.imgflip.com/19xbgu.jpg" alt="1" onclick="openImg(this);">
+    </div>
+    <div class="column">
+      <img src="http://4.bp.blogspot.com/-IaZI6IiKNXk/TaeSXBpCAmI/AAAAAAAAIlQ/My8IRdzAazY/s1600/buscemi-baron.jpg" alt="2" onclick="openImg(this);">
+    </div>
+    <div class="column">
+      <img src="https://i.ytimg.com/vi/QuoQnd0lxSk/hqdefault.jpg" alt="3" onclick="openImg(this);">
+    </div>
+    <div class="column">
+      <img src="https://cdn.unicornbooty.com/wp-content/uploads/2011/04/18100533/Screen-shot-2011-04-15-at-12.03.06-PM.png" alt="4" onclick="openImg(this);">
+    </div>
+  </div>
+
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+
+
+
+
+
+<script src="memes.js"></script>
+</body>
+</html>
